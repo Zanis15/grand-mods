@@ -1,5 +1,6 @@
 package com.runic.grandindustry;
 
+import com.runic.grandindustry.blocks.ModBlocks;
 import com.runic.grandindustry.data.modStrings;
 import com.runic.grandindustry.items.ModItems;
 import com.runic.grandindustry.proxies.CommonProxy;
@@ -22,6 +23,7 @@ public class grandindustry {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

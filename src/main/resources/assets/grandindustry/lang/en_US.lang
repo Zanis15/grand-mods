@@ -1,1 +1,9 @@
+#ingot localizations
 item.ingotCopper.name=Copper Ingot
+item.ingotTin.name=Tin Ingot
+item.ingotSilver.name=Silver Ingot
+
+#ore localizations
+tile.oreCopper.name=Copper Ore
+tile.oreTin.name=Tin Ore
+tile.oreSilver.name=Silver Ore
