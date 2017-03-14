@@ -1,7 +1,17 @@
 package com.runic.grandindustry.proxies;
 
+import com.runic.grandindustry.data.modStrings;
+import com.runic.grandindustry.grandindustry;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
+
 /**
  * This file was born into existence by our overlord RunicEnergy on 13Mar2017 at 19:22.
  */
-public class ClientProxy implements CommonProxy{
+public class ClientProxy extends CommonProxy{
+    @Override
+    public void registerItemRenderer(Item item, int meta, String id){
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(modStrings.MODID + ":" + id, "inventory"));
+    }
 }

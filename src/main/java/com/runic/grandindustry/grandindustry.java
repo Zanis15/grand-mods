@@ -1,7 +1,6 @@
 package com.runic.grandindustry;
 
 import com.runic.grandindustry.data.modStrings;
-import com.runic.grandindustry.proxies.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,8 +14,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class grandindustry {
     @Mod.Instance
     public static grandindustry instance;
-    @SidedProxy(clientSide = modStrings.CLIENT_PROXY, serverSide = modStrings.SERVER_PROXY, modId = modStrings.MODID)
-    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
