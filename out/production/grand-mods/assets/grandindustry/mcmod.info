@@ -1,0 +1,10 @@
+[
+{
+  "modid": "grandindustry",
+  "name": "Grand Industry",
+  "description": "The Grand Mods module for all of your industrial needs!",
+  "version": "1.0",
+  "mcversion": "1.10.2",
+  "authorList": ["RunicEnergy", "Zanvol"]
+}
+]
