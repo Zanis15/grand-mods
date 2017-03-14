@@ -11,5 +11,5 @@ public class modStrings {
 
     //Proxy Strings
     public static final String CLIENT_PROXY = "com.runic.grandindustry.proxies.ClientProxy";
-    public static final String SERVER_PROXY = "com.runic.grandindustry.proxies.ServerProxy";
+    public static final String SERVER_PROXY = "com.runic.grandindustry.proxies.CommonProxy";
 }
